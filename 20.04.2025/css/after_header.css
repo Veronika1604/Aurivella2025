@@ -1,0 +1,36 @@
+/*SECTION text after menu*/
+
+.after-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 100px;
+}
+
+.after-header__text {
+  color: #4d1f08;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.after-header__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+
+.after-header__btn {
+  padding: 15px 120px;
+  border: 1px solid #000000; /* рамка */
+  background-color: transparent; /* прозорий фон */
+  color: #000000; /* колір тексту */
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  text-align: center; /* центрує текст */
+  cursor: pointer;
+}

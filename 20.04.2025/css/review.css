@@ -1,0 +1,115 @@
+/*REVIEW*/
+
+.review {
+  background-color: #d7c3a8;
+  margin-top: 100px;
+  padding: 50px 100px;
+}
+.review__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review__title {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+.review__portret-wrapper {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  width: 310px;
+}
+.review__next-link {
+  position: absolute;
+  right: -200px;
+  top: 45%;
+  cursor: pointer;
+}
+.review__text-wrapper {
+  width: 520px;
+  margin-top: 40px;
+  position: relative;
+}
+.review__text {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #4d1f08;
+  margin: 40px 0;
+}
+.review__text-img:first-child {
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+.review__text-img:last-child {
+  position: absolute;
+  bottom: 0;
+  right: -50px;
+}
+.review__name {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: #4d1f08;
+  margin-bottom: 10px;
+}
+.review__date {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  color: #4d1f08;
+}
+
+.feedback__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #4d1f08;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feedback__input {
+  border: none;
+  border-radius: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  color: #736c6c;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px;
+}
+.feedback__textarea {
+  height: 200px;
+  border: none;
+  border-radius: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  color: #736c6c;
+  resize: none;
+  margin-top: 0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.feedback__btn {
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+  background-color: #fde486;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  width: 300px;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}

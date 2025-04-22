@@ -1,0 +1,43 @@
+/*PRE FOOTER*/
+
+.prefooter {
+  background-image: url(../images/pre_footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 100px;
+  padding: 150px 100px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.prefooter__title {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 600;
+  color: #000000;
+  width: 570px;
+}
+.prefooter__input {
+  border: 1px solid #4d1f08;
+  margin-top: 25px;
+  padding: 20px 30px;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 650px;
+  color: #000000;
+}
+.prefooter__btn {
+  background-color: #4d1f08;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+}

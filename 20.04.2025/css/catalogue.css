@@ -1,0 +1,54 @@
+/*CATALOGUE*/
+
+.catalogue {
+  background-color: #fff5f5;
+  margin-top: 100px;
+}
+.catalogue__title {
+  text-align: center;
+  color: #4d1f08;
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Cormorant Garamond", serif;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+.catalogue__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 0;
+  margin-top: 50px;
+}
+.catalogue__item {
+  margin: 0 auto;
+  width: 300px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.catalogue__img {
+  width: 100%;
+  height: calc(100% - 40px);
+  object-fit: cover;
+}
+.catalogue__name {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  color: #4d1f08;
+  padding: 20px 0;
+}
+.catalogue__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.catalogue__btn {
+  color: #4d1f08;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+}

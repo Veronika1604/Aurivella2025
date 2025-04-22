@@ -1,0 +1,55 @@
+/*OUR_BLOG*/
+
+.blog__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 80px;
+  font-weight: 500;
+  text-align: center;
+  color: #4d1f08;
+  margin-top: 50px;
+}
+.blog__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 80px;
+  margin-top: 30px;
+  padding: 0 100px;
+}
+.blog__col:first-child {
+  width: 60%;
+}
+.blog__col:last-child {
+  width: 40%;
+}
+.blog__img {
+  width: 100%;
+  height: auto;
+}
+.blog__date {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #957461;
+}
+.blog__item-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #4d1f08;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.blog__text {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #4d1f08;
+  margin: 20px 0;
+}
+.blog__next {
+  color: #4d1f08;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+}

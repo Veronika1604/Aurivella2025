@@ -1,0 +1,46 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+}
+.burger__line {
+  width: 25px;
+  height: 4px;
+  background-color: #4d1f08;
+  border-radius: 1px;
+  transition: all 0.3s ease-in-out;
+}
+.burger-toggle {
+  display: none;
+}
+
+.close {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+}
+.close__line {
+  width: 35px;
+  height: 4px;
+  background-color: #4d1f08;
+  border-radius: 1px;
+}
+.close__line:first-child {
+  transform: rotate(45deg) translate(0px, 6px);
+}
+.close__line:last-child {
+  transform: rotate(-45deg) translate(0px, -6px);
+}
+
+.close-toggle {
+  display: flex;
+}

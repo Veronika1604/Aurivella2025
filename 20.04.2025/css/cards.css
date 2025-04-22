@@ -1,0 +1,69 @@
+/* CARDS */
+
+.cards-wrapper {
+  margin-top: 40px;
+  padding-bottom: 100px;
+  background-color: #fff5f5;
+  padding-top: 100px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.cards__border {
+  border-left: 2px solid #d1bea2;
+  height: 400px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/*THREE CARDS*/
+
+.cards__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__img-wrapper {
+  background-color: #fff;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+.card__title {
+  text-align: center;
+  font-family: "Rufina", serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+}
+.card__img {
+  width: 280px;
+  height: 240px;
+  object-fit: contain;
+}
+.card__btn {
+  padding: 8px 50px;
+  border: 1px solid #000000; /* рамка */
+  background-color: transparent; /* прозорий фон */
+  color: #000000; /* колір тексту */
+  font-family: "Rufina", serif;
+  font-size: 16px;
+  text-align: center; /* центрує текст */
+  cursor: pointer;
+}
+
+/*TWO CARDS*/
+
+.cards__bottom {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 20px;
+}
+.w-card {
+  width: 45%;
+}

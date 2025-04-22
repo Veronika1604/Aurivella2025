@@ -1,0 +1,58 @@
+.catalogue-detail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.catalogue-detail__content {
+  background-color: #fff5f5;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  height: 95%;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.catalogue-detail__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4d1f08;
+  cursor: pointer;
+}
+
+.catalogue-detail__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  color: #4d1f08;
+  margin-bottom: 20px;
+}
+
+.catalogue-detail__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #4d1f08;
+  margin-bottom: 30px;
+}
+
+.catalogue-detail__img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  border: 5px solid #957461;
+  border-radius: 10px;
+}
